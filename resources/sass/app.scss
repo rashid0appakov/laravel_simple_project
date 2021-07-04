@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import "~font-awesome/scss/font-awesome.scss";
+
+label{
+    margin-bottom: 3px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+header h1{
+    display: block;
+    width: 100%;
+    max-width: 723px;
+}
+.main-menu{
+    border-top: 1px solid #ccc;
+    .nav-item{
+        margin-top: -1px;
+        border-top: 1px solid transparent;
+        &.active{
+            border-top: 1px solid $success;
+        }
+        .nav-link{
+            color: #fff;
+        }
+    }
+    
+}
