@@ -2120,7 +2120,7 @@ button.header-nav_link.dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #3dba20;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
@@ -2130,9 +2130,15 @@ button.header-nav_link.dropbtn {
 }
 div#myDropdown a {
     display: block;
-    color: #3dba20;
-    margin: 10px;
+    color: #fff;
     text-decoration: none;
+    position: relative;
+    transition: 0.5s;
+    padding: 10px;
+}
+div#myDropdown a:hover {
+    background: #fff;
+    color: #000;
 }
 .show {display: block;}
 .acc-wrp-bg .breadcrumbs.container a {
